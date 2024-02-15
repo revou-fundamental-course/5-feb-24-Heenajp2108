@@ -1,0 +1,95 @@
+.container {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: auto;
+  padding: 10px;
+  background-color: #909b7f;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #28446e;
+}
+
+p {
+  text-align: center;
+  color: #04688f;
+}
+
+p1 {
+  text-align: center;
+  color: #02d436;
+}
+
+.celciusarea,
+.fahrenheitarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.konversi {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #ff0000;
+  color: white;
+  border: double;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.konversi:hover {
+  background-color: #ff000093;
+}
+
+.reset {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: rgb(255, 0, 191);
+  color: white;
+  border: double;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.reset:hover {
+  background-color: rgba(255, 0, 191, 0.493);
+}
+
+.reverse {
+  background-color: rgb(59, 230, 96);
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+  margin-top: 10px;
+  color: white;
+  border: double;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.reverse:hover {
+  background-color: rgba(59, 230, 96, 0.514);
+}
+
+.kalkulasiarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
